@@ -36,7 +36,7 @@ function App() {
           todos.map((todo) => (
             <TodoItem
               key={todo.id}
-              todo={todo.text}
+              text={todo.text}
               id={todo.id}
               onCheck={handleTodoDone}
             />
